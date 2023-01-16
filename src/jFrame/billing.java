@@ -434,6 +434,10 @@ public class billing extends javax.swing.JFrame {
          
     }//GEN-LAST:event_jButton1ActionPerformed
     public void addToBucketButtonActionTwo(){
+        String bookId = jTextField5.getText();
+        
+        
+        
         String buyerQuantity = jTextField9.getText();
         String availableQuantity = jTextField10.getText();
         int bQuantity = Integer.parseInt(buyerQuantity);
@@ -449,7 +453,7 @@ public class billing extends javax.swing.JFrame {
             try{
                 Connection con = ConnectionProvider.getCon();
                 Statement st = con.createStatement();
-                st.executeUpdate("update book set Quantity='"+remainingQuantity+"'");
+                st.executeUpdate("update book set Quantity='"+remainingQuantity+"' where bookId='"+bookId+"'");
             }
             catch(Exception e){
                 JOptionPane.showMessageDialog(null, e);

@@ -59,6 +59,7 @@ public class home extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         jNewBuyerButton = new javax.swing.JButton();
         jManuButton = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
 
@@ -88,7 +89,7 @@ public class home extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Billing Management System");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, 250, 30));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, 250, 30));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1366, 70));
         jPanel1.getAccessibleContext().setAccessibleName("");
@@ -111,7 +112,7 @@ public class home extends javax.swing.JFrame {
                 jUpdateBuyerButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jUpdateBuyerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, 150, -1));
+        jPanel2.add(jUpdateBuyerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 150, 150, -1));
 
         jBuyerDetailsButton.setBackground(new java.awt.Color(0, 0, 0));
         jBuyerDetailsButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -128,7 +129,7 @@ public class home extends javax.swing.JFrame {
                 jBuyerDetailsButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jBuyerDetailsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, 150, -1));
+        jPanel2.add(jBuyerDetailsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, 150, -1));
 
         jDeleteBuyerButton.setBackground(new java.awt.Color(0, 0, 0));
         jDeleteBuyerButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -145,7 +146,7 @@ public class home extends javax.swing.JFrame {
                 jDeleteBuyerButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jDeleteBuyerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, 150, -1));
+        jPanel2.add(jDeleteBuyerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 150, -1));
 
         jNewBookButton.setBackground(new java.awt.Color(0, 0, 0));
         jNewBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -162,7 +163,7 @@ public class home extends javax.swing.JFrame {
                 jNewBookButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jNewBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 150, -1));
+        jPanel2.add(jNewBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 150, -1));
 
         jUpdateBookButton.setBackground(new java.awt.Color(0, 0, 0));
         jUpdateBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -179,7 +180,7 @@ public class home extends javax.swing.JFrame {
                 jUpdateBookButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jUpdateBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, 150, -1));
+        jPanel2.add(jUpdateBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, 150, -1));
 
         jBookDetails.setBackground(new java.awt.Color(0, 0, 0));
         jBookDetails.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -196,7 +197,7 @@ public class home extends javax.swing.JFrame {
                 jBookDetailsActionPerformed(evt);
             }
         });
-        jPanel2.add(jBookDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 420, 150, -1));
+        jPanel2.add(jBookDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 400, 150, -1));
 
         jRemoveBookButton.setBackground(new java.awt.Color(0, 0, 0));
         jRemoveBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -213,7 +214,7 @@ public class home extends javax.swing.JFrame {
                 jRemoveBookButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jRemoveBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 470, 150, -1));
+        jPanel2.add(jRemoveBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 450, 150, -1));
 
         jBillingButton.setBackground(new java.awt.Color(0, 0, 0));
         jBillingButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -230,7 +231,7 @@ public class home extends javax.swing.JFrame {
                 jBillingButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jBillingButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 520, 150, -1));
+        jPanel2.add(jBillingButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 500, 150, -1));
 
         jLogoutButton.setBackground(new java.awt.Color(255, 0, 0));
         jLogoutButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -242,8 +243,8 @@ public class home extends javax.swing.JFrame {
                 jLogoutButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jLogoutButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 570, 150, -1));
-        jPanel2.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 320, 10));
+        jPanel2.add(jLogoutButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 550, 150, -1));
+        jPanel2.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 320, 10));
 
         jNewBuyerButton.setBackground(new java.awt.Color(0, 0, 0));
         jNewBuyerButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -260,7 +261,7 @@ public class home extends javax.swing.JFrame {
                 jNewBuyerButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jNewBuyerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 150, -1));
+        jPanel2.add(jNewBuyerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 150, -1));
 
         jManuButton.setBackground(new java.awt.Color(102, 102, 255));
         jManuButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -272,7 +273,19 @@ public class home extends javax.swing.JFrame {
                 jManuButtonMouseClicked(evt);
             }
         });
-        jPanel2.add(jManuButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 150, -1));
+        jPanel2.add(jManuButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, 150, -1));
+
+        jButton1.setBackground(new java.awt.Color(102, 102, 255));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons/closeButton_icon.png"))); // NOI18N
+        jButton1.setText("Close");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 600, 150, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 340, 660));
         jPanel2.getAccessibleContext().setAccessibleName("");
@@ -470,6 +483,11 @@ public class home extends javax.swing.JFrame {
         new billing().setVisible(true);
     }//GEN-LAST:event_jBillingButtonActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // Close button action performed.... to close the application.
+        System.exit(0);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -508,6 +526,7 @@ public class home extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jBillingButton;
     private javax.swing.JButton jBookDetails;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jBuyerDetailsButton;
     private javax.swing.JButton jDeleteBuyerButton;
     private javax.swing.JLabel jLabel1;

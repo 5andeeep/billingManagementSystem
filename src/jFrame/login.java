@@ -139,7 +139,7 @@ public class login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void rSMaterialButtonCircle1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rSMaterialButtonCircle1ActionPerformed
-        // TODO add your handling code here:
+        // Close button action performed...to close the window
         int a = JOptionPane.showConfirmDialog(null,"Do you really want to close the Aplication ?", "Select", JOptionPane.YES_NO_OPTION);
         if(a == 0){
             System.exit(0);
@@ -147,7 +147,7 @@ public class login extends javax.swing.JFrame {
     }//GEN-LAST:event_rSMaterialButtonCircle1ActionPerformed
 
     private void rSMaterialButtonCircle2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rSMaterialButtonCircle2ActionPerformed
-        // TODO add your handling code here:
+        // Login button action performed.....to login the application..
         if(jCTextField1.getText().equals("Sandeep") && jPasswordField1.getText().equals("admin")){
             setVisible(false);
             new home().setVisible(true);
